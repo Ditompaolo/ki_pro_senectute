@@ -1,12 +1,12 @@
 <style>
         body {
+            background-color: #D9EFBB !important;
             font-family: Telegraf;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
         }
         nav {
-            background-color: #D9EFBB;
             padding: 10px;
         }
         nav ul {
