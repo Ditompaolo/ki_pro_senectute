@@ -21,4 +21,7 @@
             text-decoration: none;
             color: #333;
         }
+        footer {
+            margin-top: 50px; /* Abstand von 50px vor dem Footer */
+        }
     </style>
