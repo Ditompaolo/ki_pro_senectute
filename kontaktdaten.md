@@ -1,4 +1,4 @@
-**Zukunft mit KI-Treffpunkt!**
+**Wissensvermittlung zu KI bei Pro Senectute**
 
 Künstliche Intelligenz bewegt Sie und möchten weiter inspiriert werden!
 
