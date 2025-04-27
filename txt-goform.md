@@ -8,4 +8,5 @@ Ich freue mich sehr auf Ihr Feedback und danke Ihnen nochmals herzlich für Ihre
 
 Mit besten Grüßen,  
 Paolo Di Tommaso 
-Veranstalter des KI-Treffpunkts im "Tuchschmidhuus" Oberentfelden
+Veranstalter des KI-Kurs für Pro Senectute
+
