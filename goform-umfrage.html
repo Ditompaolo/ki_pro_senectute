@@ -37,39 +37,54 @@
     </div>
     </header>
     <main>
-    <nav>
-    <div class="container my-4">
-        <div class="row justify-content-center">
-            <div class="col-lg mx-2 align-self-center">
-                <div class="my-3">
-                    <img src="Bilder/D_ProSenectute_RGB_35mm_MitClaim-Schutzzone.png" alt="Prosenectute" width="300" height="200">        
-                    <script>
-                        // Funktion zum Laden und Anzeigen des Markdown-Inhalts
-                        function loadMarkdown() {
-                        fetch('txt-goform.md')
-                            .then(response => response.text())
-                            .then(text => {
-                            document.getElementById('content').innerHTML = marked.parse(text);
-                            })
-                            .catch(error => console.error('Fehler beim Laden der Markdown-Datei:', error));
-                        }
-                    // Laden Sie den Markdown-Inhalt, wenn die Seite geladen ist
-                    window.onload = loadMarkdown;
-                </script>
-            </div>
-        </div> 
-    <div id="content"></div>
-</nav>
-<div class="col-lg mx-2 align-self-center">
-    <p>Ihre Meinung ist mir wichtig! Daher bitte ich Sie höflich mir Ihr Feedback mittels Umfrage zu geben.</p>
-    <br><br>
-        </div> 
-    <div id="content"></div>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfABN4b6lhYMmBZEt87WGQ18KXZfTSgHVMeedjo9v4m6MpbDA/viewform?usp=dialog" width="640" height="1051" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe>
-        <<div class="col-lg mx-2 align-self-center">
-    <p>Für mehr Informationen schreiben Sie eine Mail an:</p><address><a href="mailto:info@di-tommaso.site">info@di-tommaso.site</a><br /></address>
-    </div>
+        <div class="container my-4">
+            <nav>
+                <div class="row justify-content-center">
+                    <div class="col-lg mx-2 align-self-center">
+                        <div class="my-3">
+                            <img src="Bilder/D_ProSenectute_RGB_35mm_MitClaim-Schutzzone.png" alt="Prosenectute" width="300" height="200">        
+                            <script>
+                                // Funktion zum Laden und Anzeigen des Markdown-Inhalts
+                                function loadMarkdown() {
+                                fetch('txt-goform.md')
+                                    .then(response => response.text())
+                                    .then(text => {
+                                        document.getElementById('content').innerHTML = marked.parse(text);
+                                    })
+                                    .catch(error => console.error('Fehler beim Laden der Markdown-Datei:', error));
+                                }
+                                // Laden Sie den Markdown-Inhalt, wenn die Seite geladen ist
+                                window.onload = loadMarkdown;
+                            </script>
+                       </div>
+                    </div> 
+                    <div id="content"></div>
+                </div>
+            </nav>
+    <!-- Hier beginnt der iframe-Bereich -->
+    <div class="row justify-content-center">       
+        <div class="col-lg mx-2 align-self-center">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfABN4b6lhYMmBZEt87WGQ18KXZfTSgHVMeedjo9v4m6MpbDA/viewform?usp=dialog" width="640" height="1051" frameborder="0" marginheight="0" marginwidth="0">
+            Wird geladen…
+            </iframe>
         </div>
+    <!-- Hier beginnt der Text-Bereich zu iframe-->
+    <div class="row justify-content-center mt-3">
+        <div class="col-lg mx-2 align-self-center">
+            <p>Ihre Meinung ist mir wichtig! Daher bitte ich Sie höflich mir Ihr Feedback mittels Umfrage zu geben.</p>
+            <br><br>
+        </div> 
+        <div id="content"></div>
+    <!-- Kontaktbereich -->
+    <div class="row justify-content-center mt-3">
+        <div class="col-lg mx-2 align-self-center">
+            <p>Für mehr Informationen schreiben Sie eine Mail an:</p>
+            <address>
+                <a href="mailto:info@di-tommaso.site">info@di-tommaso.site</a><br />
+            </address>
+        </div>
+    </div>
+    <!-- Fussbereich Seite -->
     <footer>
     <p>© <span id="currentYear"></span> KI-Exchange</p>
     <a href="impressum.md">Impressum</a>
